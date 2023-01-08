@@ -4,9 +4,9 @@ const detailSchema= new Schema({
     profilePic:{
         type:String,
     },
-    scores:[{
+    scores:{
         type: Number,
-    }]
+    }
 })
 
 module.exports=detailSchema;

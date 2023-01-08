@@ -5,11 +5,12 @@ import Container from '@mui/material/Container';
 
 function Hero(){
     return(
-<Container maxWidth="100vw">
+<Container  className="container" maxWidth="100vw">
 <Box
 sx={{
+    display: 'flex', justifyContent: 'center',
     height:200,
-}}><h1>Friend Finder</h1></Box>
+}}><h1 className='main-title'>Friend Finder</h1></Box>
 </Container>
     )
 

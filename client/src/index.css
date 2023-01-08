@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container{
+  padding-top: 10px;
+  background-color: #001d3d;
+  color: whitesmoke;
+  font-size: 2rem;
+}
+
+#quiz-btn{
+  width:10vw;
+}
